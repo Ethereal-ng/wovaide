@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import Index from "./pages/Index";
 import Gallery from "./pages/Gallery";
+import Events from "./pages/Events";
 import Team from "./pages/Team";
 import NotFound from "./pages/NotFound";
 import EstherYakubuSule from "./pages/team/EstherYakubuSule";
@@ -29,6 +30,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/events" element={<Events />} />
           <Route path="/team" element={<Team />} />
           <Route path="/team/esther-yakubu-sule" element={<EstherYakubuSule />} />
           <Route path="/team/sarah-david-ibi" element={<SarahDavidIbi />} />

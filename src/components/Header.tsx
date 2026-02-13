@@ -10,6 +10,7 @@ const navLinks = [
   { href: "#programs", label: "Programs" },
   { href: "/team", label: "Our Team", isPage: true },
   { href: "/gallery", label: "Gallery", isPage: true },
+  { href: "/events", label: "Events", isPage: true },
   { href: "#donate", label: "Donate" },
   { href: "#contact", label: "Contact" },
 ];
